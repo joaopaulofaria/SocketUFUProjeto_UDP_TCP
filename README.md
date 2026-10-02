@@ -78,8 +78,8 @@ Cliente TCP ◄──(palavra original)─ Servidor TCP
 Na raiz do projeto, construa as imagens usadas pelo `docker-compose.yaml`:
 
 ```bash
-docker build -t sockettcp1216 ./socketTCPufu
-docker build -t socketudp1216 ./socketUDPufu
+docker build -t serversockettcpjoaopaulo ./socketTCPufu
+docker build -t serversockeudpjoaopaulo ./socketUDPufu
 ```
 
 ### 2. Subir os servidores
