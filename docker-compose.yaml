@@ -1,0 +1,14 @@
+services:
+  serversockettcp:
+    image: sockettcp1216
+    container_name: serversockettcp
+    ports:
+      - '1216:1216'
+    restart: unless-stopped 
+  
+  serversocketudp:
+    image: socketudp1216
+    container_name: serversocketudp
+    ports:
+      - '4443:4443/udp'
+    restart: unless-stopped
