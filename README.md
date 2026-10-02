@@ -138,15 +138,15 @@ def  →  abc
 ```yaml
 services:
   serversockettcp:
-    image: sockettcp1216
-    container_name: serversockettcp
+    image: serversockettcpjoaopaulo
+    container_name: serversockettcpjoaopaulo
     ports:
       - '1216:1216'
-    restart: unless-stopped
-
+    restart: unless-stopped 
+  
   serversocketudp:
-    image: socketudp1216
-    container_name: serversocketudp
+    image: serversocketudpjoaopaulo
+    container_name: serversocketudpjoaopaulo
     ports:
       - '4443:1216/udp'
     restart: unless-stopped
