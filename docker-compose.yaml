@@ -10,5 +10,5 @@ services:
     image: socketudp1216
     container_name: serversocketudp
     ports:
-      - '4443:4443/udp'
+      - '4443:1216/udp'
     restart: unless-stopped
